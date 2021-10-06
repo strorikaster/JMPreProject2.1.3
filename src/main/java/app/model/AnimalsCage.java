@@ -20,11 +20,6 @@ public class AnimalsCage {
         return timer;
     }
 
-
-
-
-
-
     public void whatAnimalSay() {
         System.out.println("Say:");
         System.out.println(animal.toString());
