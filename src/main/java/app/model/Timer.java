@@ -8,7 +8,6 @@ public class Timer {
 
     private Long nanoTime = System.nanoTime();
 
-    @Autowired
     public Long getTime() {
         return nanoTime;
     }
